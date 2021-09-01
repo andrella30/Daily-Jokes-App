@@ -35,7 +35,7 @@ class BackgroudPage extends StatelessWidget {
         Container(
           height: constraints.maxHeight * 0.6,
           width: constraints.maxWidth,
-          color: Colors.white,
+          color: Colors.grey[100],
         ),
       ],
     );
