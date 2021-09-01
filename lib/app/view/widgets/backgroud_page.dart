@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-class BackgroudPage extends StatelessWidget {
+class BackgroundPage extends StatelessWidget {
   final BoxConstraints constraints;
 
-  const BackgroudPage({Key? key, required this.constraints}) : super(key: key);
+  const BackgroundPage({Key? key, required this.constraints}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
