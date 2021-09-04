@@ -12,7 +12,7 @@ class BackgroundPage extends StatelessWidget {
         Container(
           height: constraints.maxHeight * 0.4,
           width: constraints.maxWidth,
-          color: Colors.yellow,
+          color: Color.fromRGBO(255, 222, 89,1),
           child: Padding(
             padding: EdgeInsets.only(bottom: constraints.maxHeight * 0.1),
             child: Center(

@@ -19,7 +19,7 @@ class RefreshButtonWidget extends StatelessWidget {
         height: 50,
         width: 50,
         child: CircleAvatar(
-          backgroundColor: Colors.yellow[300],
+          backgroundColor: Color.fromRGBO(255, 222, 89,1),
           child: IconButton(
             onPressed: () {
               print(controller.defineCategory);

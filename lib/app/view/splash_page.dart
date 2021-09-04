@@ -11,11 +11,9 @@ class SplashPage extends StatelessWidget {
       return SplashScreenView(
         navigateRoute: HomePage(),
         duration: 3000,
-        //imageSrc: 'assets/splash_logo.png',
-        backgroundColor: Color.fromRGBO(255, 238, 0, 1),
-        text: "Daily Joke",
-        textStyle: TextStyle(fontSize: 42, fontWeight: FontWeight.bold),
-        
+        imageSrc: 'assets/splash_logo.png',
+        imageSize: 500,
+        backgroundColor: Color.fromRGBO(255, 222, 89,1),        
       );
     });
   }
