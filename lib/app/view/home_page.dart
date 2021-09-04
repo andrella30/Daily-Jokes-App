@@ -2,6 +2,7 @@ import 'package:daily_jokes/app/view/widgets/backgroud_page.dart';
 import 'package:daily_jokes/app/view/widgets/card_widget.dart';
 import 'package:flutter/material.dart';
 
+
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
 

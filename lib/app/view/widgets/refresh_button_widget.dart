@@ -1,4 +1,6 @@
+import 'package:daily_jokes/app/controller/home_controller.dart';
 import 'package:flutter/material.dart';
+import 'package:get_it/get_it.dart';
 
 class RefreshButtonWidget extends StatelessWidget {
   final BoxConstraints constraints;
@@ -8,6 +10,7 @@ class RefreshButtonWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final controller = GetIt.I.get<HomeController>();
     return Positioned(
       top: constraints.maxHeight * 0.8,
       left: 50,
@@ -18,7 +21,10 @@ class RefreshButtonWidget extends StatelessWidget {
         child: CircleAvatar(
           backgroundColor: Colors.yellow[300],
           child: IconButton(
-            onPressed: () {},
+            onPressed: () {
+              print(controller.defineCategory);
+              controller.loadJoke(controller.defineCategory);
+            },
             icon: Icon(
               Icons.refresh,
               color: Colors.black,
