@@ -5,5 +5,3 @@
   - Consumo de Api com Http 
   - Estruturação de pastas
   - Padrão de arquitetura de software MVC
-  - Utilização de Adsense
-
