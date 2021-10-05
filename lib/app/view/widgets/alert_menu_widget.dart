@@ -15,6 +15,7 @@ class AlertMenuWidget extends StatelessWidget {
           borderRadius: BorderRadius.all(Radius.circular(20.0))),
       title: Text('Joke Categories'),
       content: Container(
+        width: 1,
         height: 250,
         child: ListView.builder(
           physics: BouncingScrollPhysics(),
