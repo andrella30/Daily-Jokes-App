@@ -22,7 +22,6 @@ class RefreshButtonWidget extends StatelessWidget {
           backgroundColor: Color.fromRGBO(255, 222, 89,1),
           child: IconButton(
             onPressed: () {
-              print(controller.defineCategory);
               controller.loadJoke(controller.defineCategory);
             },
             icon: Icon(
