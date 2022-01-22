@@ -1,11 +1,10 @@
 # Daily Jokes
 
 ## Features
-  - Gerência de estado Mobx
-  - Gerência de instancias utilizando a biblioteca GetIt.
-  - Consumo de Api com Http 
-  - Estruturação de pastas
-  - Padrão de arquitetura de software MVC
+  - State Mangement: Mobx
+  - Dependency Injection: GetIt
+  - API consumption with http library
+  - MVC pattern
 
   
 ## Screenshots   
