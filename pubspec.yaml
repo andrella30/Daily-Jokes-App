@@ -28,6 +28,7 @@ dependencies:
   flutter_mobx: 
   get_it: ^7.2.0
   splash_screen_view: ^3.0.0
+  google_mobile_ads: ^2.1.0
 
 
 
